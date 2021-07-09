@@ -264,6 +264,13 @@ export function hydrate(
   );
 }
 
+/**
+ * 和 16.8 好像没什么区别
+ * @param element
+ * @param container
+ * @param callback
+ * @return {React$Component<*, *>|PublicInstance}
+ */
 export function render(
   element: React$Element<any>,
   container: Container,
